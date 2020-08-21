@@ -1,18 +1,33 @@
-<template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+<template lang="pug">
+	.home-wrapper
+		.jumbotron
+			h1.text-primary 일별/주별 날씨정보
+				p.pl-3.text-secondary
+					small vue.js로 개발한 이용한 날씨정보 앱
+		city-list
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import CityList from '../components/CityList.vue'
 
 export default {
-  name: 'Home',
-  components: {
-    HelloWorld
-  }
+	name: 'Home',
+	components: {
+		'city-list': CityList,
+	}
 }
 </script>
+
+<style lang="less">
+@767: ~"(max-width: 767px)";
+@575: ~"(max-width: 575px)";
+.jumbotron{
+	background-color: #efefef;
+	@media @767 {
+		h1 {font-size: 2rem;}
+	}
+	@media @575 {
+		h1 {font-size: 1.5rem;}
+	}
+}
+</style>

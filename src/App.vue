@@ -1,6 +1,7 @@
 <template lang="pug">
 	#app.container.d-flex.flex-column.justify-content-between
 		nav-bar
+		//- transition(name='fade' mode='out-in')
 		router-view.wrapper
 		footer-bar
 </template>
