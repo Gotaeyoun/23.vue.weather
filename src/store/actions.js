@@ -1,16 +1,8 @@
-const cityLists = [
-	{
-		id: 1, 
-		name: 'Seoul'
-	},
-	{
-		id: 2, 
-		name: 'Busan'
-	},
-] 
+import {	axCity	} from '../api'
+
 
 export default {
-	ACT_CITY({ commit }) {
-		commit('MUT_CITY', cityLists)
+	async ACT_CITY({ commit }) {
+		commit('MUT_CITY', await axCity());
 	}
 }
