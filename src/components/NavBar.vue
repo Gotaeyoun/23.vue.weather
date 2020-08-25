@@ -4,11 +4,11 @@
 			.logo.p-3.mr-2
 				i.fa.fa-sun.text-light
 			router-link(to='/')
-				.p-2.mr-3 Home
+				.p-2.mr-2 Home
 			router-link(to='/daily')
-				.p-2.mr-3 Daily Weather
+				.p-2.mr-2 Daily Weather
 			router-link(to='/weekly')
-				.p-2.mr-3 Weekly Weather
+				.p-2.mr-2 Weekly Weather
 </template>
 
 <script>
@@ -18,11 +18,11 @@ export default {
 </script>
 
 <style scoped lang="less">
-	a{	
+	a {
 		text-decoration: none;
-		&:link{color:#fdf1e1; text-decoration: none;}
-		&:visited{color:#fdf1e1; text-decoration: none;}
-		&:active{color:#fdf1e1; text-decoration: none;}
-		&:hover{color:#ffd9a8; text-decoration: none;}
+		&:link {color: #fdf1e1; text-decoration: none;}
+		&:visited {color: #fdf1e1; text-decoration: none;}
+		&:active {color: #fdf1e1; text-decoration: none;}
+		&:hover {color: #ffd9a8; text-decoration: none;}
 	}
 </style>

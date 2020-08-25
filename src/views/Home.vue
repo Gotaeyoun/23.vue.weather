@@ -18,10 +18,10 @@ export default {
 }
 </script>
 
-<style lang="less">
+<style scoped lang="less">
 @767: ~"(max-width: 767px)";
 @575: ~"(max-width: 575px)";
-.jumbotron{
+.jumbotron {
 	background-color: #efefef;
 	@media @767 {
 		h1 {font-size: 2rem;}

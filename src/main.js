@@ -6,7 +6,7 @@ import store from './store'
 Vue.config.productionTip = false
 
 //전역으로 사용할 module은 main.js에서 선언한다.
-import { BootstrapVue,IconsPlugin } from 'bootstrap-vue';
+import { BootstrapVue, IconsPlugin } from 'bootstrap-vue';
 import '@fortawesome/fontawesome-free/css/all.min.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap-vue/dist/bootstrap-vue.min.css'

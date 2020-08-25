@@ -1,6 +1,6 @@
 <template lang="pug">
 	.footer-wrapper.bg-dark.text-light
-		.p-3.text-center &copy; Teayoun
+		.p-3.text-center &copy; Booldook
 </template>
 
 <script>

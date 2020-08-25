@@ -1,4 +1,4 @@
-# 23.vue.weather
+# 24.vue-weather
 
 ## Project setup
 ```
